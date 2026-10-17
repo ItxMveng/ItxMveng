@@ -17,19 +17,20 @@ Agent multimodal en Python pour un robot conversationnel dédié à l'interactio
 ## Projets
 | Projet | Ce que ça fait | Stack |
 |---|---|---|
+| [Le Classeur](https://github.com/ItxMveng/policy-binder) · [démo](https://policy-binder.vercel.app) | Assistant RAG sur des règlements : cite la page exacte ou dit « je ne trouve pas ». Sur 60 questions : 70 % d'exactitude contre 42,5 % pour une base naïve, 0 réponse incorrecte, 20/20 abstentions hors corpus ; évalué en CI | FastAPI, Qdrant, BM25 + reranker, Groq, Langfuse, React, Terraform, Azure Container Apps |
 | [portfolio](https://github.com/ItxMveng/portfolio) · [site](https://francisitoua.vercel.app) | Portfolio administrable avec un assistant Mistral qui répond à partir du contenu publié, derrière un proxy serveur protégé (clé côté serveur, limite par IP) | Next.js, TypeScript, Supabase, API Mistral, Vercel |
 | [ReTurn](https://github.com/ItxMveng/ReTurn) · [page](https://itxmveng.github.io/ReTurn/) | Restitution de documents perdus : extraction des champs par Mistral Vision, rapprochement multicritère, vérification d'identité avant tout échange | Flutter, FastAPI, PostgreSQL, Redis, Firebase, GitHub Actions, Render |
 | [RelanceAuto](https://github.com/ItxMveng/RelanceAuto) · [app](https://relance-auto-green.vercel.app) | Relances e-mail automatiques des prospects jusqu'à la prise de rendez-vous, avec mode simulation et passe planifiée | Next.js, PostgreSQL, Nodemailer, GitHub Actions |
 
 ## En construction (octobre 2026 → janvier 2027)
-Chaque projet : jeu de test versionné, évaluation en CI, API conteneurisée sur Google Cloud Run (Terraform), journal de bord public. Les résultats sont publiés une fois mesurés.
+Chaque projet : jeu de test versionné, évaluation en CI, API conteneurisée déployée dans le cloud avec Terraform, journal de bord public. Les résultats sont publiés une fois mesurés.
 
 | Projet | Dates | Dépôt |
 |---|---|---|
-| Le Classeur — assistant documentaire fiable et évalué (RAG hybride, citations, abstention) | 12 → 23 octobre 2026 | [policy-binder](https://github.com/ItxMveng/policy-binder) |
+| Le Classeur — en ligne et évalué (voir Projets), finalisation | 12 → 23 octobre 2026 | [policy-binder](https://github.com/ItxMveng/policy-binder) |
 | Routage automatique des tickets de support (classification hybride modèle léger + LLM) | 26 octobre → 13 novembre 2026 | à venir |
 | Extraction de factures avec contrôle de cohérence | 16 novembre → 4 décembre 2026 | à venir |
 | Maintenance prédictive — chaîne MLOps complète (MLflow, dérive, Kubernetes, ArgoCD) | 7 décembre 2026 → 8 janvier 2027 | à venir |
 
 ## Outils
-Python · TypeScript · Java · FastAPI · React · Flutter · Docker · GitHub Actions · PostgreSQL · Supabase · Neo4j · API Mistral · Ollama · Whisper · Vosk
+Python · TypeScript · Java · FastAPI · React · Flutter · Docker · Terraform · Azure · GitHub Actions · PostgreSQL · Supabase · Qdrant · Neo4j · Langfuse · API Mistral · Groq · Ollama · Whisper · Vosk
