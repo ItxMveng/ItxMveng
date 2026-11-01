@@ -27,7 +27,7 @@ Chaque projet : jeu de test versionné, évaluation en CI, API conteneurisée d�
 
 | Projet | Dates | Dépôt |
 |---|---|---|
-| Routage automatique des tickets de support (classification hybride modèle léger + LLM) | 26 octobre → 13 novembre 2026 | à venir |
+| Routage automatique des tickets de support (classification hybride modèle léger + LLM) | 1er → 13 novembre 2026 | [support-ticket-routing](https://github.com/ItxMveng/support-ticket-routing) |
 | Extraction de factures avec contrôle de cohérence | 16 novembre → 4 décembre 2026 | à venir |
 | Maintenance prédictive — chaîne MLOps complète (MLflow, dérive, Kubernetes, ArgoCD) | 7 décembre 2026 → 8 janvier 2027 | à venir |
 
