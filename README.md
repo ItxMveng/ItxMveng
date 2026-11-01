@@ -27,7 +27,6 @@ Chaque projet : jeu de test versionné, évaluation en CI, API conteneurisée d�
 
 | Projet | Dates | Dépôt |
 |---|---|---|
-| Le Classeur — en ligne et évalué (voir Projets), finalisation | 12 → 23 octobre 2026 | [policy-binder](https://github.com/ItxMveng/policy-binder) |
 | Routage automatique des tickets de support (classification hybride modèle léger + LLM) | 26 octobre → 13 novembre 2026 | à venir |
 | Extraction de factures avec contrôle de cohérence | 16 novembre → 4 décembre 2026 | à venir |
 | Maintenance prédictive — chaîne MLOps complète (MLflow, dérive, Kubernetes, ArgoCD) | 7 décembre 2026 → 8 janvier 2027 | à venir |
